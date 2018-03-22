@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">AuslogicsTest</string>
-    <string name="empty">Oops!!! Ошибочка вышла!</string>
+    <string name="text_empty_process_list">Oops!!! Ошибочка вышла!</string>
 </resources>

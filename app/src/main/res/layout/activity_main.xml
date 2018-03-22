@@ -10,7 +10,6 @@
         android:id="@+id/processListFragment"
         android:name="auslogicstest.app.ProcessListFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@android:layout/list_content">
+        android:layout_height="match_parent">
     </fragment>
 </android.support.constraint.ConstraintLayout>
