@@ -2,12 +2,12 @@ package auslogicstest.app;
 
 import android.os.Bundle;
 
-public class MainActivity extends AbstractActivity {
+public class ProcessListActivity extends AbstractActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_process_list);
         log("onCreate");
 //        ProcessListFragment processFragment = new ProcessListFragment();
 //        FragmentManager fragmentManager = getSupportFragmentManager()

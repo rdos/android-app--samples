@@ -3,6 +3,8 @@ package auslogicstest.app;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+
+//ActionBarActivities
 abstract class AbstractActivity extends AppCompatActivity {
 
     // TODO:)

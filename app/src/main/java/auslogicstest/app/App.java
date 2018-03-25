@@ -10,9 +10,9 @@ public class App extends Application {
     public void onCreate() {
         try {
             super.onCreate();
-            processMan = new ProcessMan();
+            processMan = new ProcessMan(getBaseContext());
         } catch (Exception e) {
-            Toast.makeText(getBaseContext(),"Oops! :(", Toast.LENGTH_LONG).show();
+            Toast.makeText(getBaseContext(), R.string.oops_msg, Toast.LENGTH_LONG).show();
         }
 
         //Parse SDK stuff goes here
