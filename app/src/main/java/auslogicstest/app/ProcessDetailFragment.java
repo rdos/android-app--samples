@@ -1,6 +1,7 @@
 package auslogicstest.app;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -32,6 +33,7 @@ public class ProcessDetailFragment extends Fragment {
         TextView textViewMemory = (TextView) getView().findViewById(R.id.text_process_memory);
         ImageView imageViewIcon = (ImageView) getView().findViewById(R.id.image_process_icon);
         Button btnGoToProcessSettting = (Button) getView().findViewById(R.id.btn_go_to_process_setting);
+        Button btnShowMaps = (Button) getView().findViewById(R.id.btn_show_maps);
 
         textViewName.setText(App.processMan.getAppName(mProcessId));
         textViewBattery.setText(App.processMan.getBattery(mProcessId));
@@ -42,6 +44,13 @@ public class ProcessDetailFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 App.processMan.showSetting(getActivity(), mProcessId);
+            }
+        });
+        btnShowMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity().getBaseContext(), MapsActivity.class);
+                startActivity(intent);
             }
         });
     }

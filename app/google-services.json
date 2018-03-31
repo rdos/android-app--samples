@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "604599405414",
+    "firebase_url": "https://steel-operative-199713.firebaseio.com",
+    "project_id": "steel-operative-199713",
+    "storage_bucket": "steel-operative-199713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604599405414:android:c44f11e769582e38",
+        "android_client_info": {
+          "package_name": "auslogicstest.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604599405414-4pl29b3a8oab956pshs9egr3rr67da3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIjDZX-eki2dNWLoltJvyhXKDh1BsZMVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

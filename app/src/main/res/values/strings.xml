@@ -2,4 +2,6 @@
     <string name="app_name">AuslogicsTest</string>
     <string name="oops_msg">Oops!!! Ошибочка вышла!</string>
     <string name="btn_information_about_application">Information about application</string>
+    <string name="btn_show_maps">Show maps</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
